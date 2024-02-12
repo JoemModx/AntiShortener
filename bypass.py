@@ -3,8 +3,7 @@ import datetime
 from discord.ext import commands
 import requests
 
-bot      = commands.Bot(command_prefix='o!', description=" ")
-intents  = discord.Intents().all()
+bot      = commands.Bot(command_prefix='o!', description="jdk")
 
 @bot.command()
 async def bypass(ctx, arg):
