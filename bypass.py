@@ -8,7 +8,7 @@ intents  = discord.Intents().all()
 
 @bot.command()
 async def bypass(ctx, arg):
-  r=requests.get('https://bypass.bot.nu/bypass2?url='+arg)
+  r=requests.get('https://bypass.city/bypass?bypass='+arg)
   a = ('%'+r.text)
   chunks = a.split(',')
   dest = chunks[1]
